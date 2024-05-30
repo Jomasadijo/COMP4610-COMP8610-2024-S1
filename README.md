@@ -1,7 +1,3 @@
-
-
-
-
 # Rope and Cloth Simulation Project
 
 ## Overview
@@ -53,18 +49,18 @@ This project implements a rope and cloth simulation using the mass-spring model.
 ### Step 3: Set Up the Project
 
 1. **Create Project Directory:**
-   ```sh
+sh
    mkdir RopeSimulation
    cd RopeSimulation
    mkdir include src
-   ```
+
 
 2. **Copy Your Files:**
    - Place header files in the `include` directory.
    - Place source files in the `src` directory.
 
 3. **Create `CMakeLists.txt`:**
-   ```cmake
+cmake
    cmake_minimum_required(VERSION 3.10)
    project(RopeSimulation)
 
@@ -81,7 +77,7 @@ This project implements a rope and cloth simulation using the mass-spring model.
    add_executable(RopeSimulation ${SOURCES})
 
    target_link_libraries(RopeSimulation opencv_core opencv_imgproc opencv_highgui)
-   ```
+
 
 ### Step 4: Configure VS Code
 
@@ -95,7 +91,7 @@ This project implements a rope and cloth simulation using the mass-spring model.
 3. **Configure Tasks:**
    - Create a `.vscode` directory in your project root.
    - Inside `.vscode`, create a `tasks.json` file:
-     ```json
+json
      {
        "version": "2.0.0",
        "tasks": [
@@ -112,7 +108,7 @@ This project implements a rope and cloth simulation using the mass-spring model.
            "label": "Run",
            "
 
-```json
+json
            "type": "shell",
            "command": "${workspaceFolder}/build/RopeSimulation",
            "group": {
@@ -123,20 +119,20 @@ This project implements a rope and cloth simulation using the mass-spring model.
          }
        ]
      }
-     ```
+   
 
 4. **Configure CMake Settings:**
    - Create a `settings.json` file inside the `.vscode` directory with the following content:
-     ```json
+ json
      {
        "cmake.configureOnOpen": true,
        "cmake.generator": "MinGW Makefiles"
      }
-     ```
+
 
 5. **Configure Debugging (Optional):**
    - Create a `launch.json` file inside the `.vscode` directory with the following content:
-     ```json
+json
      {
        "version": "0.2.0",
        "configurations": [
@@ -167,7 +163,7 @@ This project implements a rope and cloth simulation using the mass-spring model.
          }
        ]
      }
-     ```
+
 
 ### Step 5: Build and Run the Project
 

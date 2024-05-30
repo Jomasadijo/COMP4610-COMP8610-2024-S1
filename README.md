@@ -1,6 +1,6 @@
-Sure! Below is a README file for your C++ project encompassing all tasks from 1 to 5.
 
----
+
+
 
 # Rope and Cloth Simulation Project
 
@@ -212,6 +212,4 @@ This project implements a rope and cloth simulation using the mass-spring model.
 
 This project demonstrates the implementation of physical simulations using C++ and modern libraries. By following the tasks, you can progressively build a comprehensive simulation framework capable of handling complex interactions in a realistic manner.
 
----
 
-This README provides an overview, setup instructions, and detailed descriptions for each task in your project. By following these steps, you should be able to configure and run your simulations successfully.
